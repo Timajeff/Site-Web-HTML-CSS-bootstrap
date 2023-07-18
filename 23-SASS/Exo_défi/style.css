@@ -1,0 +1,51 @@
+.test div {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 400px;
+  height: 60px;
+  margin: 5px 0;
+  padding: 5px 10px;
+}
+
+.color-info {
+  color: blue;
+}
+
+.color-error {
+  color: red;
+}
+
+.color-success {
+  color: green;
+}
+
+.background-info {
+  background-color: blue;
+}
+
+.background-error {
+  background-color: red;
+}
+
+.background-success {
+  background-color: green;
+}
+
+.border-info {
+  border-color: blue;
+  border-width: 2px;
+  border-style: solid;
+}
+
+.border-error {
+  border-color: red;
+  border-width: 2px;
+  border-style: solid;
+}
+
+.border-success {
+  border-color: green;
+  border-width: 2px;
+  border-style: solid;
+}
+/*# sourceMappingURL=style.css.map */

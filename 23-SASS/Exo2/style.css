@@ -1,0 +1,32 @@
+.btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.btn {
+  border-radius: 4px;
+  border: none;
+  padding: 10px 30px;
+  margin: 5px;
+  color: white;
+}
+
+.btn.info {
+  background: blue;
+}
+
+.btn.error {
+  background: red;
+}
+
+.btn.success {
+  background: green;
+}
+/*# sourceMappingURL=style.css.map */

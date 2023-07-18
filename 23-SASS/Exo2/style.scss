@@ -1,0 +1,32 @@
+%flex-centered {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+$info : blue;
+$error : red;
+$success : green;
+$white : white;
+
+ .btn {
+  @extend %flex-centered;
+  border-radius : 4px;
+  border : none;
+  padding : 10px 30px;
+  margin : 5px;
+  color: $white;
+
+
+  &.info {
+    background: $info;
+  }
+
+  &.error {
+    background: $error;
+  }
+
+  &.success {
+    background: $success;
+  }
+ }
