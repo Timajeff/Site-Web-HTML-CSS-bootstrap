@@ -1,0 +1,15 @@
+ /*.wrapper {
+    display: grid;
+    grid-template-columns: repeat(12, auto);
+    grid-template-rows: [start] 100px [top-separator] auto [bottom-separator] 100px [end];
+} */
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 200px);
+    grid-template-rows: repeat(3, 200px);
+    grid-template-areas: 
+    "header header header"
+    "archives content ads"
+    "sponsor footer footer";
+}
