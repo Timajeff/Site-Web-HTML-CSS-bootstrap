@@ -1,0 +1,6 @@
+Justifier du texte: <p class="text-justify"> html et .text-justify en css
+Centrer du texte: <p class="text-center"> html et .text-center en css
+DE Mettre le texte en Majuscules: <p class="text-uppercase"> html et .text-uppercase en css
+
+Déclarer une alerte en CSS : .alert 
+Déclarer que l'alerte c'est effectué avec succés : .alert-success
