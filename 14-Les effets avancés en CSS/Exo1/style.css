@@ -1,0 +1,24 @@
+.boxWithShadow {
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    background-color: grey;
+    box-shadow: -4px 6px 20px hsla(0, 0%, 0%, 0.8);
+}
+
+.roundedBox {
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    border-radius: 8px 20px 4px 6px;
+    background-image: url('https://picsum.photos/200/300');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.gradientBox {
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    background: linear-gradient(25deg, rgb(228, 243, 24), rgb(0,255,0));
+}

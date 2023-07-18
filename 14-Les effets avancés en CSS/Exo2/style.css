@@ -1,0 +1,11 @@
+.boxWithTransition {
+    transition: all 0.8s ease;
+    width: 400px;
+    height: 200px;
+    background-color: #808080;
+}
+
+.boxWithTransition:hover {
+    transition: all 0.8s ease;
+    background-color: #0000ff;
+}

@@ -1,0 +1,25 @@
+.boxWithAnimation {
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    border-radius: 50%;
+    background-color: #000;
+    animation: 0.8s ease-in 0.5s infinite alternate bouncingBall;
+    text-align: center;
+}
+
+
+    
+
+@keyframes bouncingBall {
+ 0% {   
+    background-color: #000;
+ }
+ 50% {
+     background-color: #ffff00;
+ }
+ 100% {
+    transform: translateY(400px);
+    background-color: #ff0000;
+ }
+}
